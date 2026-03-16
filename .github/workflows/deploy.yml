@@ -1,0 +1,16 @@
+name: deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build container
+        run: docker build -t it-staffing-operating-system:latest .
+      - name: Deployment placeholder
+        run: echo "Attach registry push and Terraform apply steps per environment."
