@@ -1,0 +1,14 @@
+agent_name: review_agent
+owner_team: talent_quality
+service_tier: production
+queues:
+  - entity_resolution
+  - low_confidence_shortlist
+  - outbound_approval
+service_levels:
+  urgent_review_minutes: 30
+  standard_review_hours: 4
+decision_thresholds:
+  entity_resolution_manual_review_below: 0.85
+  shortlist_manual_review_below: 0.62
+  outbound_approval_required: true

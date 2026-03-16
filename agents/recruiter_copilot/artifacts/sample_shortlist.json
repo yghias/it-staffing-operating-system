@@ -1,0 +1,22 @@
+{
+  "job_opening_id": "job-001",
+  "generated_at": "2026-03-15T18:00:00Z",
+  "agent_run_id": "rc-run-10428",
+  "confidence": 0.89,
+  "matches": [
+    {
+      "engineer_id": "eng-001",
+      "engineer_name": "Jordan Lee",
+      "score": 0.92,
+      "fit_summary": "Strong Python, AWS, and SQL coverage with healthcare platform experience.",
+      "evidence_count": 5
+    },
+    {
+      "engineer_id": "eng-004",
+      "engineer_name": "Morgan Patel",
+      "score": 0.84,
+      "fit_summary": "Adjacent fit with strong data platform delivery and transferable domain depth.",
+      "evidence_count": 4
+    }
+  ]
+}

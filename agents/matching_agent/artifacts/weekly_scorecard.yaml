@@ -1,0 +1,12 @@
+week_ending: 2026-03-13
+release_version: ranker_v12
+volume:
+  openings_scored: 318
+  candidates_ranked: 14620
+quality:
+  recruiter_acceptance_rate: 0.67
+  shortlist_precision_at_5: 0.61
+  explanation_completeness: 0.98
+operations:
+  p95_latency_seconds: 6.4
+  degraded_mode_rate: 0.03

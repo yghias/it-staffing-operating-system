@@ -1,0 +1,17 @@
+agent_name: matching_agent
+owner_team: talent_intelligence
+service_tier: production
+ranking_strategy: hybrid_graph_plus_vector
+scoring_weights:
+  skill_overlap: 0.30
+  technology_recency: 0.20
+  project_similarity: 0.15
+  domain_relevance: 0.10
+  prior_placement_outcome: 0.15
+  recruiter_feedback: 0.10
+thresholds:
+  explanation_minimum_evidence: 3
+  auto_promote_to_shortlist: 0.78
+  send_to_review_band:
+    lower: 0.45
+    upper: 0.62

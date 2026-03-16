@@ -1,0 +1,11 @@
+captured_at: 2026-03-15T17:30:00Z
+queues:
+  entity_resolution:
+    open_items: 21
+    within_sla_percent: 0.95
+  low_confidence_shortlist:
+    open_items: 8
+    within_sla_percent: 1.00
+  outbound_approval:
+    open_items: 5
+    within_sla_percent: 1.00

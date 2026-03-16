@@ -1,0 +1,14 @@
+period: q4_2025
+business_profile:
+  desk_count: 18
+  active_clients: 42
+  annual_ebitda_usd: 5000000
+workflow_metrics:
+  shortlist_turnaround_hours: 3.1
+  recruiter_capacity_lift_percent: 27
+  submission_to_interview_rate: 0.38
+  match_acceptance_rate: 0.66
+  low_confidence_escalation_rate: 0.11
+agent_governance:
+  auto_send_outreach_enabled: false
+  client_submission_requires_approval: true

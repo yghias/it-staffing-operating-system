@@ -7,7 +7,7 @@ The platform vision is to build a Talent Intelligence System that creates a real
 ## Repository Overview
 
 - `src/`: application modules for ingestion, transforms, graph construction, matching, forecasting, and APIs.
-- `agents/`: recruiter copilot, matching agent, and review policies.
+- `agents/`: production-style recruiter, matching, and review agent definitions with configs, prompts, tool specs, evaluations, runbooks, and operating artifacts.
 - `sql/`: schema, marts, and data quality tests.
 - `models/`: staging, intermediate, and mart model placeholders.
 - `docs/`: architecture, governance, security, runbooks, and portfolio-oriented documents.
@@ -30,7 +30,17 @@ The platform vision is to build a Talent Intelligence System that creates a real
 - [GRAPH_MODEL.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/GRAPH_MODEL.md)
 - [AI_MATCHING_ENGINE.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/AI_MATCHING_ENGINE.md)
 - [RUNBOOK.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/RUNBOOK.md)
+- [agents/README.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/agents/README.md)
+
+## Operating Profile
+
+The repository is organized to look like a scaled staffing platform with:
+
+- controlled agent workflows for recruiter-facing actions
+- release thresholds and evaluation assets for ranking systems
+- human review queues and audit policies for sensitive decisions
+- sample operating metrics and scorecards representing a multi-desk business in the $5M EBITDA range
 
 ## Scope of This Commit
 
-This repository now includes a production-style starter scaffold with documentation, source modules, SQL assets, CI/CD definitions, sample data, and infrastructure placeholders. It is still intentionally lightweight: connectors, models, and deployment modules are stubs designed to be implemented incrementally without reshaping the repository.
+This repository now includes a production-style starter scaffold with documentation, source modules, SQL assets, CI/CD definitions, sample data, infrastructure placeholders, and a much richer agent operating layer. Core services are still starter implementations, but the repository structure, operating controls, and business-facing artifacts now reflect a scaled staffing platform rather than a blank scaffold.

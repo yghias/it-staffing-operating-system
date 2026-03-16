@@ -1,0 +1,22 @@
+agent_name: recruiter_copilot
+owner_team: talent_operations
+service_tier: production
+primary_objectives:
+  - reduce_time_to_shortlist
+  - improve_submission_quality
+  - increase_recruiter_capacity
+sla:
+  p50_response_seconds: 8
+  p95_response_seconds: 20
+quality_gates:
+  minimum_shortlist_acceptance_rate: 0.62
+  maximum_unexplained_recommendation_rate: 0.00
+  minimum_evidence_items_per_candidate: 3
+routing:
+  auto_send_outreach: false
+  require_submission_approval: true
+  escalate_on_low_confidence: true
+confidence_thresholds:
+  candidate_match_minimum: 0.58
+  outreach_send_minimum: 0.80
+  client_submission_minimum: 0.86

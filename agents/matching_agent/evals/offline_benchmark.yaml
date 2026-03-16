@@ -1,0 +1,11 @@
+benchmark_name: match_ranker_release_gate
+metrics:
+  - ndcg_at_10
+  - recruiter_acceptance_rate
+  - shortlist_precision_at_5
+  - explanation_completeness
+release_thresholds:
+  ndcg_at_10: 0.71
+  recruiter_acceptance_rate: 0.62
+  shortlist_precision_at_5: 0.58
+  explanation_completeness: 0.95

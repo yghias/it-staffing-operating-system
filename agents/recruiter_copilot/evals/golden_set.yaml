@@ -1,0 +1,15 @@
+evaluation_set: recruiter_copilot_q1
+owner: talent_ops_analytics
+cases:
+  - case_id: rc_001
+    scenario: senior_data_engineer_healthcare
+    expected_top_candidate: eng-001
+    acceptance_rule: top_3_contains_expected
+  - case_id: rc_002
+    scenario: platform_engineer_terraform_aws
+    expected_behavior: recommend_adjacent_skill_pool
+    acceptance_rule: explanation_mentions_transferable_background
+  - case_id: rc_003
+    scenario: low_signal_job_intake
+    expected_behavior: ask_for_missing_constraints
+    acceptance_rule: no_shortlist_without_clarification
