@@ -9,6 +9,14 @@ models:
     columns:
       - name: job_opening_source_id
         tests: [not_null, unique]
+  - name: stg_recruiter_activity
+    columns:
+      - name: activity_id
+        tests: [not_null, unique]
+  - name: stg_placement_history
+    columns:
+      - name: placement_id
+        tests: [not_null, unique]
   - name: dim_engineer
     columns:
       - name: engineer_id
@@ -21,3 +29,13 @@ models:
     tests:
       - dbt_utils.expression_is_true:
           expression: "match_score between 0 and 1"
+  - name: candidate_matching_mart
+    columns:
+      - name: recommendation_band
+        tests:
+          - accepted_values:
+              values: ['strong_fit', 'viable_fit', 'review_required']
+  - name: staffing_pipeline_mart
+    columns:
+      - name: job_opening_id
+        tests: [not_null]
