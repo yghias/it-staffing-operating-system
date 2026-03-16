@@ -18,8 +18,8 @@
 - Persist confidence scores and evidence for each merge decision.
 
 ### Intelligence layer
-- Relational warehouse for curated operational entities and marts.
-- Postgres stored procedures for match scoring, queue routing, and graph-edge refresh jobs.
+- Snowflake warehouse for curated operational entities, transformations, and marts.
+- PostgreSQL operational store for match-state persistence, review queues, and procedural serving controls.
 - Property graph for talent relationships and explainable traversals.
 - Vector index for semantic similarity across resumes, projects, and job descriptions.
 - Feature generation pipelines for matching and forecasting models.
@@ -32,18 +32,19 @@
 ### Governance and operations
 - Data quality checks, lineage, access control, PII protection, and audit trails.
 - Logging, metrics, tracing, model monitoring, and review workflow telemetry.
-- Managed cloud surfaces for operating teams through AWS console, QuickSight, CloudWatch, Step Functions, and EventBridge.
+- Managed cloud surfaces for operating teams through QuickSight, CloudWatch, Airflow, and EventBridge.
 
 ## Cloud Deployment Posture
 
-- `Amazon RDS for PostgreSQL`: canonical operational store, marts, and PL/pgSQL matching workflows
+- `Snowflake`: analytical warehouse, transformations, marts, and business-facing datasets
+- `Amazon RDS for PostgreSQL`: operational serving store for match runs, review queues, and auxiliary SQL workflows
 - `Amazon ECS Fargate`: FastAPI services and batch workers
-- `AWS Step Functions`: orchestrated matching, review, and graph refresh workflows
+- `Airflow`: ingestion, warehouse build, graph refresh, and data quality scheduling
 - `Amazon EventBridge`: connector schedules and event routing
 - `Amazon S3`: raw resumes, ATS payload archives, and evaluation records
 - `Amazon OpenSearch`: semantic retrieval and hybrid search
-- `Amazon Bedrock`: recruiter copilot summarization and drafting
-- `Amazon QuickSight`: recruiter, operations, and executive dashboards
+- `Amazon Bedrock`: workflow summarization and drafting
+- `Amazon QuickSight`: operations and executive dashboards
 - `Amazon CloudWatch`: logs, metrics, alarms, and runbook triggers
 - `AWS Secrets Manager`: connector and model secrets
 
@@ -55,13 +56,14 @@ flowchart LR
     B --> C[Raw and Staging]
     C --> D[Entity Resolution]
     D --> E[Canonical Talent Model]
-    E --> F[Graph Store]
-    E --> G[Warehouse Marts]
+    E --> F[Snowflake Marts]
+    E --> G[Graph Store]
     E --> H[Vector Index]
     F --> I[Matching Engine]
+    G --> I
     H --> I
-    G --> J[Forecasting and Analytics]
-    I --> K[Recruiter Copilot]
+    F --> J[Forecasting and Analytics]
+    I --> K[Workflow Assistant]
     K --> L[Human Review]
     L --> M[Feedback Loop]
     M --> I

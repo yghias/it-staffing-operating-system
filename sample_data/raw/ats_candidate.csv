@@ -1,0 +1,6 @@
+candidate_id,full_name,primary_email,location,current_title,seniority,availability_status,target_rate,work_authorization,profile_last_updated_at,skills,technologies
+eng-001,Jordan Lee,jordan.lee@example.com,DETROIT MI,Senior Data Engineer,senior,available_now,115,US Citizen,2026-03-08 10:00:00,"Python,SQL,Data Modeling,ETL","AWS,Snowflake,dbt,Airflow,PostgreSQL"
+eng-002,Taylor Kim,taylor.kim@example.com,CHICAGO IL,Lead Platform Engineer,lead,available_in_2_weeks,132,US Citizen,2026-03-02 09:15:00,"Platform Engineering,Terraform,Kubernetes,Incident Response","AWS,Terraform,Kubernetes,Datadog,GitHub Actions"
+eng-003,Alex Romero,alex.romero@example.com,REMOTE,Senior Analytics Engineer,senior,available_now,124,US Citizen,2026-03-11 08:45:00,"Python,SQL,Machine Learning,Forecasting","GCP,BigQuery,Airflow,Python,Looker"
+eng-004,Morgan Patel,morgan.patel@example.com,DETROIT MI,Senior Data Consultant,senior,available_in_30_days,108,US Citizen,2026-02-21 12:10:00,"Python,SQL,Data Warehousing,Business Analysis","Azure,Synapse,dbt,Power BI,PostgreSQL"
+eng-004-alt,Morgan Patel,morgan.p@example.com,DETROIT MI,Senior Data Consultant,senior,available_in_30_days,110,US Citizen,2026-02-18 11:05:00,"Python,SQL,Data Warehousing","Azure,Synapse,dbt"

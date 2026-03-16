@@ -29,6 +29,7 @@ The platform maintains a real-time graph of engineers, skills, technologies, pro
 - [GRAPH_MODEL.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/GRAPH_MODEL.md)
 - [AI_MATCHING_ENGINE.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/AI_MATCHING_ENGINE.md)
 - [CLOUD_OPERATIONS.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/CLOUD_OPERATIONS.md)
+- [DIAGRAMS.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/DIAGRAMS.md)
 - [IMPLEMENTATION_PLAN.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/IMPLEMENTATION_PLAN.md)
 - [SERVICE_BOUNDARIES.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/SERVICE_BOUNDARIES.md)
 - [EXECUTIVE_BRIEF.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/EXECUTIVE_BRIEF.md)

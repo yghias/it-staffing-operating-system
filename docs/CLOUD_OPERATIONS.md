@@ -2,14 +2,15 @@
 
 ## Managed Service Baseline
 
-- `Amazon RDS for PostgreSQL` for canonical staffing entities, marts, and stored procedures
+- `Snowflake` for warehouse transformations, marts, and semantic datasets
+- `Amazon RDS for PostgreSQL` for operational workflow state and serving-side procedures
 - `Amazon ECS Fargate` for API services and orchestration workers
-- `AWS Step Functions` for intake, matching, review, and writeback workflows
+- `Airflow` for ingestion, warehouse builds, graph refresh, and data quality scheduling
 - `Amazon EventBridge` for scheduled syncs and event fan-out
 - `Amazon S3` for resumes, notes, payload retention, and evaluation records
 - `Amazon OpenSearch` for vector and keyword retrieval
-- `Amazon Bedrock` for recruiter-facing generation workflows
-- `Amazon QuickSight` for staffing, recruiting, and leadership dashboards
+- `Amazon Bedrock` for workflow summarization and drafting
+- `Amazon QuickSight` for staffing and leadership dashboards
 - `Amazon CloudWatch` for logs, metrics, dashboards, and alarms
 - `AWS Secrets Manager` for API tokens, database credentials, and model keys
 
@@ -20,18 +21,17 @@
 - Platform operations can use CloudWatch dashboards and alarms to detect ingestion failures, stale source data, and match latency regressions.
 - Support and delivery teams can review EventBridge schedules and CloudWatch logs without touching code.
 
-## Database-First Design
+## Data Platform Design
 
-The repository pushes deterministic matching logic into PostgreSQL where practical:
+The repository splits responsibilities between Snowflake and PostgreSQL:
 
-- role requirements are resolved in SQL
-- candidate features are aggregated in SQL
-- ranking scores and review-routing thresholds are computed in SQL
-- graph-edge refresh jobs are handled in SQL procedures
+- Snowflake owns normalization, intermediate entities, marts, and reporting logic
+- PostgreSQL owns operational match-state persistence and procedural serving controls
+- graph projection inputs are built from curated warehouse outputs
 
 Python remains the orchestration and API boundary for:
 
 - external connector integration
 - LLM-assisted drafting and semantic enrichment
 - review-facing APIs
-- fallback scoring when the warehouse is not available
+- graph loading and warehouse-adjacent workflow control

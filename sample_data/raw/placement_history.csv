@@ -1,0 +1,4 @@
+placement_id,engineer_id,recruiter_id,client_id,role_name,started_on,ended_on,bill_rate,margin_percent,outcome_status
+plc-001,eng-001,rec-001,client-001,Data Engineer,2025-04-01,2025-12-31,155,29.5,successful
+plc-002,eng-002,rec-002,client-002,Platform Engineer,2024-08-15,2025-08-14,172,31.0,successful
+plc-003,eng-004,rec-001,client-004,BI Consultant,2024-02-01,2024-10-31,138,24.0,completed

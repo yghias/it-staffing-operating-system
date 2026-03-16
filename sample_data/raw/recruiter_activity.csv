@@ -1,0 +1,5 @@
+activity_id,recruiter_id,activity_type,target_entity_type,target_entity_id,activity_timestamp,notes
+act-001,rec-001,opening_intake,job_opening,job-001,2026-03-10 09:05:00,Validated role intake with account lead
+act-002,rec-001,shortlist_review,job_opening,job-001,2026-03-10 16:20:00,Approved top two candidates for submission
+act-003,rec-002,candidate_outreach,engineer,eng-002,2026-03-11 11:40:00,Requested availability confirmation
+act-004,rec-003,client_update,client,client-003,2026-03-12 15:10:00,Role placed on hold pending budget approval

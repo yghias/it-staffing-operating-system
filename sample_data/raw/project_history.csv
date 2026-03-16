@@ -1,0 +1,5 @@
+project_id,engineer_id,company_name,project_name,domain,business_outcome,started_on,ended_on,technologies_used
+proj-001,eng-001,Acme Health Systems,Healthcare Claims Platform,healthcare,Reduced manual claims reconciliation by 38 percent,2024-01-15,2025-02-28,"AWS,Snowflake,dbt,Python"
+proj-002,eng-002,NorthBridge Payments,Platform Modernization,financial_services,Improved platform deployment stability across regional clusters,2023-06-01,2025-01-31,"AWS,Terraform,Kubernetes,Datadog"
+proj-003,eng-003,TalentGrid Analytics,Supply Forecast Engine,staffing,Improved role demand forecast coverage across skill families,2024-03-01,2025-12-31,"Python,BigQuery,Airflow,Looker"
+proj-004,eng-004,Midwest Public Health,Provider Reporting Warehouse,healthcare,Consolidated reporting workflows for state-funded programs,2023-11-01,2025-02-15,"Azure,Synapse,dbt,Power BI"

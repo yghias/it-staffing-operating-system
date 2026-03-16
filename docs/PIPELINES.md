@@ -12,6 +12,10 @@
 - Resolve deterministic and probabilistic identity matches before marts are published.
 - Keep business logic in SQL models so marts, dashboards, and review routing use the same definitions.
 
+## Operational Serving
+- Persist matching runs, review queues, and graph-edge refresh state in PostgreSQL.
+- Use curated Snowflake outputs as the source for graph projections and serving-side ranking inputs.
+
 ## Publishing
 - Build Snowflake marts for pipeline health, supply-demand gaps, match scores, and staffing capacity.
 - Refresh graph projections after curated warehouse models complete.

@@ -24,4 +24,8 @@ jobs:
       - name: Validate SQL assets exist
         run: test -f sql/schema.sql && test -f sql/procedures.sql && test -f sql/marts.sql && test -f sql/tests.sql
       - name: Validate model layout
-        run: test -f models/schema.yml && test -f models/marts/fct_match_score.sql
+        run: test -f models/schema.yml && test -f models/marts/fct_match_score.sql && test -f dbt_project.yml
+      - name: Validate orchestration layout
+        run: test -f airflow/dags/staffing_platform_daily.py && test -f src/orchestration/dags/airflow_platform_dag.py
+      - name: Validate sample data layout
+        run: test -f sample_data/raw/ats_candidate.csv && test -f sample_data/raw/crm_job_opening.csv && test -f sample_data/control/source_row_counts.csv

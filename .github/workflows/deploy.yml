@@ -19,7 +19,7 @@ jobs:
         run: docker build -t it-staffing-operating-system:latest .
       - name: Validate Terraform files
         run: test -f infrastructure/terraform/main.tf && test -f infrastructure/terraform/variables.tf
-      - name: Validate Airflow assets
-        run: test -f src/orchestration/dags/airflow_platform_dag.py && test -f src/orchestration/schedules/platform_schedules.yaml
+      - name: Validate warehouse and Airflow assets
+        run: test -f dbt_project.yml && test -f airflow/dags/staffing_platform_daily.py && test -f src/orchestration/schedules/platform_schedules.yaml
       - name: Deployment note
         run: echo "Container publish, Snowflake release, and Terraform apply are executed per environment from protected release workflows."

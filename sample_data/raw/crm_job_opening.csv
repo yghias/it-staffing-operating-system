@@ -1,0 +1,4 @@
+opening_id,client_id,role_name,title,location,priority,status,required_skills,required_technologies,target_start_date,max_bill_rate,intake_quality_score,created_at
+job-001,client-001,Data Engineer,Senior Data Engineer,DETROIT MI,critical,open,"Python,SQL,Data Modeling","AWS,Snowflake,dbt",2026-04-01,120,0.91,2026-03-10 09:00:00
+job-002,client-002,Platform Engineer,Lead Platform Engineer,CHICAGO IL,high,open,"Platform Engineering,Terraform,Kubernetes","AWS,Terraform,Kubernetes",2026-04-10,140,0.88,2026-03-09 10:30:00
+job-003,client-003,Analytics Engineer,Senior Analytics Engineer,REMOTE,on_hold,on_hold,"Python,SQL,Forecasting","BigQuery,Airflow,Looker",2026-05-01,125,0.74,2026-03-05 14:20:00
