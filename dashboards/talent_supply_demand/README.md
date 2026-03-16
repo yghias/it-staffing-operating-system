@@ -1,3 +1,3 @@
 # Talent Supply and Demand Dashboard
 
-Monitor skill cluster availability, demand trends, and forecast gaps.
+Operational dashboard for skill cluster availability, demand trends, and forecast gaps.

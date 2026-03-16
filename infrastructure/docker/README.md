@@ -1,3 +1,3 @@
 # Docker Assets
 
-Place compose files, local dependency definitions, and container helper scripts here.
+Local container definitions and runtime helper assets for API and warehouse-adjacent development live here.

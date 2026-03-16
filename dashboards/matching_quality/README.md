@@ -1,3 +1,3 @@
 # Matching Quality Dashboard
 
-Track score calibration, recruiter acceptance, and explanation usefulness.
+Operational dashboard for score calibration, desk acceptance, and explanation usefulness.

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: RAW_STAFFING
+    tables:
+      - name: ats_candidate
+      - name: crm_job_opening
+      - name: project_history
+      - name: recruiter_activity
+      - name: placement_history

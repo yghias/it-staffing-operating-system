@@ -1,0 +1,11 @@
+daily_build:
+  cron: "0 3 * * *"
+  description: "Nightly warehouse build and graph refresh"
+
+hourly_ingestion:
+  cron: "0 * * * *"
+  description: "Incremental ATS and CRM sync"
+
+review_queue_checks:
+  cron: "*/15 * * * *"
+  description: "Review queue SLA and escalation monitor"

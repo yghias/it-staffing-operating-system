@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  test:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,7 +15,13 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Lint
+      - name: Python lint
         run: ruff check .
-      - name: Test
+      - name: Compile modules
+        run: python -m compileall src
+      - name: Run unit tests
         run: pytest
+      - name: Validate SQL assets exist
+        run: test -f sql/schema.sql && test -f sql/procedures.sql && test -f sql/marts.sql && test -f sql/tests.sql
+      - name: Validate model layout
+        run: test -f models/schema.yml && test -f models/marts/fct_match_score.sql

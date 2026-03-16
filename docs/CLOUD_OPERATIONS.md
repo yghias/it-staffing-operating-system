@@ -6,7 +6,7 @@
 - `Amazon ECS Fargate` for API services and orchestration workers
 - `AWS Step Functions` for intake, matching, review, and writeback workflows
 - `Amazon EventBridge` for scheduled syncs and event fan-out
-- `Amazon S3` for resumes, notes, payload retention, and model evaluation assets
+- `Amazon S3` for resumes, notes, payload retention, and evaluation records
 - `Amazon OpenSearch` for vector and keyword retrieval
 - `Amazon Bedrock` for recruiter-facing generation workflows
 - `Amazon QuickSight` for staffing, recruiting, and leadership dashboards

@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_ats_candidate
+    columns:
+      - name: engineer_source_id
+        tests: [not_null, unique]
+  - name: stg_crm_job_opening
+    columns:
+      - name: job_opening_source_id
+        tests: [not_null, unique]
+  - name: dim_engineer
+    columns:
+      - name: engineer_id
+        tests: [not_null, unique]
+  - name: fct_job_opening
+    columns:
+      - name: job_opening_id
+        tests: [not_null, unique]
+  - name: fct_match_score
+    tests:
+      - dbt_utils.expression_is_true:
+          expression: "match_score between 0 and 1"

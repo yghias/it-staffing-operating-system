@@ -1,3 +1,3 @@
 # Monitoring Assets
 
-Place dashboard exports, alerts, and telemetry config here.
+CloudWatch dashboards, alarm definitions, and telemetry references for platform operations live here.

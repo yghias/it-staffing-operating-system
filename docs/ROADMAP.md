@@ -3,16 +3,16 @@
 ## Phase 1
 - Core platform foundation
 - Canonical data model
-- ATS and resume ingestion
-- Basic graph build and match API
+- ATS, CRM, and project-history ingestion
+- Snowflake staging and mart layer
+- Airflow-controlled warehouse builds
 
 ## Phase 2
-- Forecasting models
-- Recruiter copilot
-- Review queue workflows
-- Dashboard prototypes
+- Graph refresh and review queue workflows
+- Supply-demand and fill-time forecasting
+- Operational dashboards backed by published marts
 
 ## Phase 3
-- Multi-tenant security hardening
-- Advanced graph analytics
-- Production deployment and monitoring
+- environment hardening and access controls
+- advanced graph analytics and semantic retrieval tuning
+- rollout automation, lineage coverage, and cost controls
