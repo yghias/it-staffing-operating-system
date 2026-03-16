@@ -9,10 +9,10 @@ The platform vision is to build a Talent Intelligence System that creates a real
 - `src/`: application modules for ingestion, transforms, graph construction, matching, forecasting, and APIs.
 - `agents/`: production-style recruiter, matching, and review agent definitions with configs, prompts, tool specs, evaluations, runbooks, and operating artifacts.
 - `sql/`: schema, marts, and data quality tests.
-- `models/`: staging, intermediate, and mart model placeholders.
+- `models/`: staging, intermediate, and mart model layers.
 - `docs/`: architecture, governance, security, runbooks, and portfolio-oriented documents.
-- `infrastructure/terraform/`: cloud infrastructure scaffold.
-- `sample_data/`: starter CSV fixtures for local demos and testing.
+- `infrastructure/terraform/`: cloud infrastructure baseline.
+- `sample_data/`: lightweight CSV fixtures for local demos and testing.
 
 ## Quick Start
 
@@ -43,4 +43,4 @@ The repository is organized to look like a scaled staffing platform with:
 
 ## Scope of This Commit
 
-This repository now includes a production-style starter scaffold with documentation, source modules, SQL assets, CI/CD definitions, sample data, infrastructure placeholders, and a much richer agent operating layer. Core services are still starter implementations, but the repository structure, operating controls, and business-facing artifacts now reflect a scaled staffing platform rather than a blank scaffold.
+This repository captures a high-value, lightweight version of an operating system built to solve real staffing problems: documentation, source modules, SQL assets, CI/CD definitions, sample data, infrastructure baselines, and a deeply defined agent layer. The implementation is intentionally lean, but the architecture, controls, workflows, and operating artifacts reflect a platform shaped by hard-earned delivery experience rather than a generic scaffold.
