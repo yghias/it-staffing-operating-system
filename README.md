@@ -29,6 +29,7 @@ The platform vision is to build a Talent Intelligence System that creates a real
 - [DATA_MODEL.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/DATA_MODEL.md)
 - [GRAPH_MODEL.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/GRAPH_MODEL.md)
 - [AI_MATCHING_ENGINE.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/AI_MATCHING_ENGINE.md)
+- [CLOUD_OPERATIONS.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/CLOUD_OPERATIONS.md)
 - [RUNBOOK.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/RUNBOOK.md)
 - [agents/README.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/agents/README.md)
 

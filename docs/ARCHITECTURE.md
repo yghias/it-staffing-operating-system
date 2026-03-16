@@ -19,6 +19,7 @@
 
 ### Intelligence layer
 - Relational warehouse for curated operational entities and marts.
+- Postgres stored procedures for match scoring, queue routing, and graph-edge refresh jobs.
 - Property graph for talent relationships and explainable traversals.
 - Vector index for semantic similarity across resumes, projects, and job descriptions.
 - Feature generation pipelines for matching and forecasting models.
@@ -31,6 +32,20 @@
 ### Governance and operations
 - Data quality checks, lineage, access control, PII protection, and audit trails.
 - Logging, metrics, tracing, model monitoring, and review workflow telemetry.
+- Managed cloud surfaces for operating teams through AWS console, QuickSight, CloudWatch, Step Functions, and EventBridge.
+
+## Cloud Deployment Posture
+
+- `Amazon RDS for PostgreSQL`: canonical operational store, marts, and PL/pgSQL matching workflows
+- `Amazon ECS Fargate`: FastAPI services and batch workers
+- `AWS Step Functions`: orchestrated matching, review, and graph refresh workflows
+- `Amazon EventBridge`: connector schedules and event routing
+- `Amazon S3`: raw resumes, ATS payload archives, and evaluation artifacts
+- `Amazon OpenSearch`: semantic retrieval and hybrid search
+- `Amazon Bedrock`: recruiter copilot summarization and drafting
+- `Amazon QuickSight`: recruiter, operations, and executive dashboards
+- `Amazon CloudWatch`: logs, metrics, alarms, and runbook triggers
+- `AWS Secrets Manager`: connector and model secrets
 
 ## Mermaid System Diagram
 
