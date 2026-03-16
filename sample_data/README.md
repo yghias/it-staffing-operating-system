@@ -10,7 +10,7 @@ The sample data set is organized to support warehouse model validation, entity r
 - `raw/recruiter_activity.csv`
 - `raw/placement_history.csv`
 
-These files align with the source contracts defined in [models/sources.yml](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/models/sources.yml) and the staging models in [models/staging](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/models/staging).
+These files align with the source contracts defined in [models/sources.yml](../models/sources.yml) and the staging models in [models/staging](../models/staging).
 
 ## Control files
 

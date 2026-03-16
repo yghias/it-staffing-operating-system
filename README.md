@@ -24,17 +24,17 @@ The platform maintains a real-time graph of engineers, skills, technologies, pro
 
 ## Core Docs
 
-- [ARCHITECTURE.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/ARCHITECTURE.md)
-- [DATA_MODEL.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/DATA_MODEL.md)
-- [GRAPH_MODEL.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/GRAPH_MODEL.md)
-- [AI_MATCHING_ENGINE.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/AI_MATCHING_ENGINE.md)
-- [CLOUD_OPERATIONS.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/CLOUD_OPERATIONS.md)
-- [DIAGRAMS.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/DIAGRAMS.md)
-- [IMPLEMENTATION_PLAN.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/IMPLEMENTATION_PLAN.md)
-- [SERVICE_BOUNDARIES.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/SERVICE_BOUNDARIES.md)
-- [EXECUTIVE_BRIEF.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/EXECUTIVE_BRIEF.md)
-- [RUNBOOK.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/docs/RUNBOOK.md)
-- [agents/README.md](/Users/yasserghias/Documents/Playground/it-staffing-operating-system/agents/README.md)
+- [ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- [DATA_MODEL.md](docs/DATA_MODEL.md)
+- [GRAPH_MODEL.md](docs/GRAPH_MODEL.md)
+- [AI_MATCHING_ENGINE.md](docs/AI_MATCHING_ENGINE.md)
+- [CLOUD_OPERATIONS.md](docs/CLOUD_OPERATIONS.md)
+- [DIAGRAMS.md](docs/DIAGRAMS.md)
+- [IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md)
+- [SERVICE_BOUNDARIES.md](docs/SERVICE_BOUNDARIES.md)
+- [EXECUTIVE_BRIEF.md](docs/EXECUTIVE_BRIEF.md)
+- [RUNBOOK.md](docs/RUNBOOK.md)
+- [agents/README.md](agents/README.md)
 
 ## Operating Profile
 
