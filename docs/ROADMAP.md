@@ -1,7 +1,7 @@
 # Roadmap
 
 ## Phase 1
-- Repository scaffold
+- Core platform foundation
 - Canonical data model
 - ATS and resume ingestion
 - Basic graph build and match API

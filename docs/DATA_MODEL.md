@@ -28,7 +28,7 @@
 
 - Warehouse tables for raw, staging, curated, and mart layers.
 - Graph projection for traversing talent relationships.
-- Vectorized text artifacts for semantic retrieval.
+- Vectorized text records for semantic retrieval.
 - Audit tables for model runs, ranking explanations, and human review outcomes.
 
 ## Core Relationships

@@ -4,7 +4,7 @@ from src.ml.matching.talent_inventory import TALENT_INVENTORY
 from src.graph.builders.projections import graph_edges_for_candidate
 
 
-def build_demo_graph() -> nx.DiGraph:
+def build_talent_graph() -> nx.DiGraph:
     graph = nx.DiGraph()
     for candidate in TALENT_INVENTORY:
         graph.add_node(f"Engineer:{candidate.engineer_id}", label=candidate.engineer_name, type="Engineer")

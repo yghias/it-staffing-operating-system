@@ -10,7 +10,7 @@ This repository treats agents as production operating units rather than prompt f
 - `policies/`: approval, escalation, and safety constraints
 - `evals/`: golden sets, review rubrics, and quality gates
 - `runbooks/`: operating procedures for degraded or low-confidence states
-- `artifacts/`: sample outputs and metrics snapshots
+- operating outputs and metrics snapshots
 
 ## Agent Portfolio
 

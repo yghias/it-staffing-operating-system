@@ -3,7 +3,7 @@ from src.api.services.matching_service import rank_engineers
 from src.common.db.postgres import execute, postgres_available
 
 
-def run_demo_job() -> dict[str, object]:
+def run_matching_job() -> dict[str, object]:
     request = MatchRequest(
         job_title="Senior Data Engineer",
         required_skills=["Python", "SQL", "Data Modeling"],

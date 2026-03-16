@@ -2,7 +2,7 @@
 
 ## Overview
 
-`it-staffing-operating-system` is an AI-powered talent intelligence platform for IT staffing firms and engineering organizations. It combines operational data pipelines, a property graph, vector retrieval, ranking models, and recruiter-facing copilots to improve hiring velocity and staffing quality.
+`it-staffing-operating-system` is a talent intelligence platform for IT staffing firms and engineering organizations. It combines operational data pipelines, a property graph, vector retrieval, ranking models, and recruiter-facing copilots to improve hiring velocity and staffing quality.
 
 ## System Layers
 
@@ -40,7 +40,7 @@
 - `Amazon ECS Fargate`: FastAPI services and batch workers
 - `AWS Step Functions`: orchestrated matching, review, and graph refresh workflows
 - `Amazon EventBridge`: connector schedules and event routing
-- `Amazon S3`: raw resumes, ATS payload archives, and evaluation artifacts
+- `Amazon S3`: raw resumes, ATS payload archives, and evaluation records
 - `Amazon OpenSearch`: semantic retrieval and hybrid search
 - `Amazon Bedrock`: recruiter copilot summarization and drafting
 - `Amazon QuickSight`: recruiter, operations, and executive dashboards

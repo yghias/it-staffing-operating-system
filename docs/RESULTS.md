@@ -2,7 +2,7 @@
 
 ## Representative Operating Outcomes
 
-The repository now includes sample operating artifacts that represent a scaled staffing business profile rather than a prototype-only lab environment.
+The repository now includes operating records that represent a scaled staffing business profile rather than a prototype-only lab environment.
 
 ### Example operating profile
 - annual EBITDA profile: approximately $5M
@@ -18,4 +18,4 @@ The repository now includes sample operating artifacts that represent a scaled s
 - stronger governance for outbound recruiter and client-facing actions
 - measurable operating scorecards for matching quality and review throughput
 
-These figures are presented as repository operating artifacts to convey production maturity and expected business impact.
+These figures are included to ground the repository in a believable operating context and expected business impact.

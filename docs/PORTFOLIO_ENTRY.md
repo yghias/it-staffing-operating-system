@@ -1,3 +1,3 @@
 # Portfolio Entry
 
-This project demonstrates how to combine talent intelligence, graph data modeling, semantic retrieval, and human-in-the-loop AI workflows into a staffing platform for engineering organizations and IT staffing firms.
+This project shows how talent intelligence, graph data modeling, semantic retrieval, and human-in-the-loop workflows can be combined into a staffing platform for engineering organizations and IT staffing firms.
